@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="nav">Library Management System</h1>
+    <center>
+    <div class="sort-container ">
+        <br>
+        <label for="sort">Sort by:</label>
+        <select class="btn" id="sort" onchange="sortBooks()">
+            <option value="title">Title</option>
+            <option value="author">Author</option>
+            <option value="year">Year</option>
+        </select>
+    </div>
+    <div class="pos">
+    <div id="book-list"></div>
+    
+    </div>
+
+    <div class="pagination">
+        <button class="btn" onclick="previousPage()" id="prev-btn" disabled> Previous</button>
+        <button class="btn" onclick="nextPage()" id="next-btn">Next </button>
+    </div></center>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+body {
+    
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: rgba(12, 3, 27, .7);
+    background: rgba(31, 154, 191, 0.1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.nav{
+   
+    background: linear-gradient(135deg, #480ca8, #4cc9f0);
+    color: #fff;
+    box-shadow: 0 1rem 1rem rgba(12, 3, 27, .1);
+    margin: 0;
+    height: 5rem;
+    place-items: center;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.sort-container {
+    margin-bottom: 20px;
+}
+
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: linear-gradient(135deg, #8f64d4, #4cc9f0);
+    color: #fff;
+}
+
+.book h3 {
+    margin-top: 0;
+}
+
+.book p {
+    margin-bottom: 5px;
+}
+
+.book img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+.pos{
+    margin-left: 100px;
+}
+
+.list img{
+    transition: 1s ease;
+    }
+    
+    .list img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+    
+    
+
+
+.btn {
+    display: inline-block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: .75rem 1rem;
+    border-radius: .4rem;
+    background: #f72585;
+    color: #fff;
+    cursor: pointer;
+    transition: all 400ms ease
+}
+
+.btn:hover {
+    background: #f84c9b;
+    box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, .15)
+}
+
+
+
